@@ -1,14 +1,20 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import Characters from './components/Character'
-import axios from 'axios';
 import Styled from 'styled-components';
+
+const StyledApp = Styled.div`
+display: flex;
+flex-wrap: wrap;
+
+`
+
 
 const StyledHeader = Styled.h1`
 
   font-size: 4.2rem;
   color: black;
-  
+
 `
 
 const App = () => {
@@ -22,7 +28,9 @@ const App = () => {
   return (
     <div className="App">
       <StyledHeader className="Header">Star Wars Characters</StyledHeader>
+      <StyledApp>
       <Characters></Characters>
+      </StyledApp>
     </div>
   );
 }

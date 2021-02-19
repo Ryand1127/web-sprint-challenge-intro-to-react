@@ -10,7 +10,7 @@ width: 50%;
 margin: 0 auto;
 display:flex;
 justify-content: center;
-flex-flow: row wrap;
+flex-flow: wrap;
     
 
     section{

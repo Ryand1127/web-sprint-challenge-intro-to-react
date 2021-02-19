@@ -9,6 +9,7 @@ div{
     border: 1px solid black;
     margin-bottom: 3%;
     border-radius: 15px 15px;
+    padding: 5%;
 }
 
 img{
